@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Spice&family=Bungee+Tint&family=Wallpoet&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url(../img/fundo6.webp);
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+section.menu{
+	width: 60vw;
+	height: 20vh;
+	margin-top:15vh ;
+	margin-left: 20vw;
+	background-color: rgb(87,87,34,0.5);
+	border:5px ridge black ;
+	border-radius: 16px;
+	flex-direction: column;
+	text-align: center;
+}
+section.menu div{
+	width: 30%;
+	padding: 1%;
+	background-color: #575757;
+	border: 1px solid black ;
+	border-radius: 16px;
+	margin-left:35% ;
+	margin-top:1.5% ;
+}
+section.menu div a{
+	text-decoration: none;
+	color: white;
+	font-family: "Wallpoet", sans-serif;
+	display: block ;
+	font-size:3vw;
+
+}
+section.menu div:hover{
+	background-color: darkred;
+	border:30px;
+}
+section.menu div:hover a{
+	color:black;
+}
+section.titulo{
+	width: 90vw;
+	margin-left: 5vw;
+	margin-top: 1vh;
+	height: 4vh;
+	background-color: rgb(255,255,255,0.5);
+	border: 5px solid black;
+	border-radius: 16px;
+	flex-direction: column;
+	text-align: center;
+}
+section.titulo h1{
+	font-family: "Wallpoet", sans-serif;
+	font-size: 2vw;
+	
+}
+section.conteudo{
+	width: 90vw;
+	height: 80vh;
+	margin-top: 3vh;
+	margin-left: 10vh;
+	background-color: rgb(0,0,0,0.5);
+	border-radius: 16px;
+}
+#texto{
+	width: 50%;
+	height: 100% ;
+	display:flex ;
+	flex-direction: column ;
+	text-align: center ;
+	justify-content: center;
+}
+#video{
+	width: 50% ;
+	height: 100% ;
+	display:flex ;
+	flex-direction: column ;
+	justify-content: center;
+	text-align: center ;
+
+}
+#video video{
+	max-width: 80%;
+	max-height: 80% ;
+	width: auto;
+	height: auto;}
+
+#texto p{
+	font-family: "Anton", sans-serif;
+	font-size: 1.8vw;	
+	color:white;
+
+}
+section.link{
+	width: 90vw;
+	height: 5vh;
+	margin-top: 2vh;
+	margin-left: 5vw;
+	background-color: rgb(255,255, 255, 1.0);
+	border:5px inset black;
+	border-radius: 16px;
+}
+section.link div a{
+	font-family: "Wallpoet", sans-serif;
+	font-size: 2vw;
+	color:black;
+	text-decoration: none;
+}
+section.link div a:hover{
+	background-color: red;
+	border:10px;
+	border-radius: 10px;
+}
+
+#texto ul{
+	width: 40%;
+	margin-left:30% ;
+	text-align: justify;
+	color: goldenrod;
+	text-shadow: 10px 7px 2px red;
+	list-style-type:square ;
+	/*square-quadrado
+	disc-bolinha
+	circle-bolinha
+	numeric-numeros
+	lower-alpha letras minusculas
+	upper-alpha letras maiusculas
+	lower-roman romanos minusculos
+	upper-roman romanos maiusculos*/
+
+}
+#tabela{
+	width: 50% ;
+	height: 100% ;
+	display:flex ;
+	flex-direction: column ;
+	justify-content: center;
+	text-align: center ;
+}
+#tabela table{
+	width: 60%;
+	color: goldenrod;
+	border: 2px ridge yellow;
+	box-shadow: 10px 7px 6px yellow;
+}
+#tabela table th{
+	background-color: darkred;
+	border: 1px solid white;
+}
+#tabela table td{
+	background-color: red;
+	border: 1px groove #3667E1;
+}
+section.mapa{
+	margin-top: 1vh;
+	margin-bottom: 2vh;
+	width: 90vw;
+	height: 50vh;
+	margin-left: 5vw;
+}
+section.mapa iframe{
+	width: 60%;
+	height: 100%;
+
+}
