@@ -268,17 +268,20 @@ h1{
 section.central{
 	margin-top: 2vw;
 	background-color: blanchedalmond;
-	width: 100vw;
+	width: 95vw;
 	height: 40vh;
+	border:5px ridge black ;
+	border-radius: 30px;
+	margin-left: 5vh;
 }
 section.central2{
 	margin-top: 2vw;
 	background-color: blanchedalmond;
-	width: 90vw;
+	width: 95vw;
 	height: 40vh;
     border:5px ridge black ;
 	border-radius: 30px;
-	margin-left: 1vw;
+	margin-left: 5vh;
 
 }
 #tabela1{
